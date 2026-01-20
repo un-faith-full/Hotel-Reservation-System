@@ -1,0 +1,43 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Gradle (if used)
+.gradle/
+build/
+
+# Git
+.git/
+.gitconfig
+
+# Temporary files
+*.tmp
+*~
+.~*
+
+# Test coverage
+.coverage
+htmlcov/
+coverage.xml
+target/site/
+
+# SonarQube
+.sonarqube/
