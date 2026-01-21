@@ -27,7 +27,7 @@ class HotelTest {
     
     @Test
     void addRoom_ValidRoom_ShouldAddToList() {
-        Hotel hotel = new Hotel("HOTEL001", "Grand Plaza", "New York");
+        Hotel hotel = new Hotel("HOTEL001", "Mega Plaza", "New York");
         Room room = new Room("101", RoomType.SINGLE, 100.0);
         
         hotel.addRoom(room);
