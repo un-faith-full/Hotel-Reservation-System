@@ -9,7 +9,7 @@ class PaymentTest {
     
     @Test
     void createPayment_ValidParameters_ShouldCreatePayment() {
-        Customer customer = new Customer("CUST001", "John Doe", "john@email.com");
+        Customer customer = new Customer("CUST001", "John Doe", "jon@email.com");
         Room room = new Room("101", RoomType.SINGLE, 100.0);
         LocalDate checkIn = LocalDate.now().plusDays(1);
         LocalDate checkOut = LocalDate.now().plusDays(3);
